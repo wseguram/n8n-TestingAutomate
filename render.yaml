@@ -16,3 +16,5 @@ services:
         value: 0.0.0.0
       - key: N8N_PORT
         value: 5678
+  		- key: NODE_OPTIONS
+   			value: --max-old-space-size=1024
